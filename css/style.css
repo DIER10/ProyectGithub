@@ -11,24 +11,40 @@ body {
 
 section {
     position: relative;
-    width: 49vw;
+    width: 50vw;
     height: 100vh;
 }
 
 .left-side {
     border-right: 1px solid black;
+
 }
 
 .right-side {
     border-left: 1px solid black;
 }
 
+.square-one,
+.square-two {
+    position: absolute;
+    width: 20px;
+    height: 80px;
+    background-color: black;
+    top: 40vh;
+}
 
+.square-one {
+    left: 20px;
+}
+
+.square-two {
+    right: 20px;
+}
 
 span {
     position: absolute;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border: 2px solid red;
 }
