@@ -12,6 +12,9 @@
 
 body {
     display: flex;
+    background-image: url(../IMG/canchas-de-futbol-9.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section {
@@ -48,8 +51,8 @@ section {
 
 span {
     position: absolute;
-    left: 45%;
-    top: 50%;
+    left: 48%;
+    top: 42%;
     border-radius: 50%;
     width: 50px;
     height: 50px;
