@@ -2,22 +2,33 @@
     margin: 0;
     border: 0;
     font-family: Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
+body {
+    display: flex;
 }
 
-h2 {
-    display: inline-block;
-    padding: 10px;
+section {
+    position: relative;
+    width: 49vw;
+    height: 100vh;
 }
 
-.diego {
-    color: #43f;
+.left-side {
+    border-right: 1px solid black;
 }
 
-.duvan {
-    color: #fff123;
-    background-color: aqua;
+.right-side {
+    border-left: 1px solid black;
+}
+
+
+
+span {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid red;
 }
