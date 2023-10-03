@@ -1,4 +1,4 @@
-:root{
+:root {
     --negro: #000;
     --blanco: #fff;
 }
@@ -11,22 +11,14 @@
 }
 
 body {
-    display: flex;
-}
-
-section {
     position: relative;
-    width: 50vw;
+    max-width: 100vw;
+}
+
+#container {
+    position: relative;
+    /* width: 100%; */
     height: 100vh;
-}
-
-.left-side {
-    border-right: 1px solid black;
-
-}
-
-.right-side {
-    border-left: 1px solid black;
 }
 
 .square-one,
@@ -48,12 +40,12 @@ section {
 
 span {
     position: absolute;
-    left: 45%;
-    top: 50%;
+    left: 48%;
+    top: 42%;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     border: dashed var(--blanco) 3px;
     background-color: var(--negro);
+    animation: rotate 3s linear infinite;
 }
-
