@@ -1,3 +1,8 @@
+:root{
+    --negro: #000;
+    --blanco: #fff;
+}
+
 * {
     margin: 0;
     border: 0;
@@ -43,8 +48,12 @@ section {
 
 span {
     position: absolute;
+    left: 45%;
+    top: 50%;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    border: dashed var(--blanco) 3px;
+    background-color: var(--negro);
 }
+
